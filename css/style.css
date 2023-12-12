@@ -302,6 +302,9 @@ body {
   .seccion-seguridad {
     flex-direction: column;
   }
+  .imagen {
+    width: 200px;
+  }
 }
 .formulario {
   position: relative;
