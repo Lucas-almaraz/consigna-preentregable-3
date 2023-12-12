@@ -112,3 +112,22 @@
         }
     }
 }
+
+@media all and (max-width: 600px) {
+    .seccion-dj {
+        flex-direction: column;
+    }
+
+    .seccion-sonido {
+        flex-direction: column;
+    }
+
+    .seccion-iluminacion {
+        flex-direction: column;
+    }
+
+    .seccion-seguridad {
+        flex-direction: column;
+    }
+
+}
