@@ -3,6 +3,8 @@
 @import 'layout/footer.scss';
 @import 'layout/nosotros.scss';
 @import 'layout/servicios.scss';
+@import 'layout/contacto.scss';
+@import 'layout/eventos.scss';
 
 
 * {
@@ -60,4 +62,16 @@ h2 {
     position: fixed;
     right: 25px;
     bottom: 35px;
+}
+
+
+h6 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+
 }

@@ -191,6 +191,187 @@ body {
   color: white;
 }
 
+.seccion-dj {
+  display: flex;
+  margin-top: 20px;
+}
+.seccion-dj .imagen {
+  width: 500px;
+}
+.seccion-dj .textos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seccion-dj .textos h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.seccion-dj .textos p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.seccion-sonido {
+  display: flex;
+  margin-top: 20px;
+}
+.seccion-sonido .imagen {
+  width: 500px;
+}
+.seccion-sonido .textos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seccion-sonido .textos h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.seccion-sonido .textos p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.seccion-iluminacion {
+  display: flex;
+  margin-top: 20px;
+}
+.seccion-iluminacion .imagen {
+  width: 500px;
+}
+.seccion-iluminacion .textos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seccion-iluminacion .textos h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.seccion-iluminacion .textos p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.seccion-seguridad {
+  display: flex;
+  margin-top: 20px;
+}
+.seccion-seguridad .imagen {
+  width: 500px;
+}
+.seccion-seguridad .textos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seccion-seguridad .textos h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.seccion-seguridad .textos p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.formulario {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 300px;
+  background-color: #2b3035;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  margin-top: 50px;
+}
+.formulario .titulo {
+  color: #7a0155;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulario input {
+  outline: 0;
+  border: 1px solid white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+.formulario textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid white;
+}
+.formulario button {
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #7a0155;
+  color: #fff;
+  cursor: pointer;
+}
+
+.eventos .textos-eventos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.eventos .textos-eventos h6 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+.eventos .textos-eventos .parrafo-evento {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.eventos img {
+  width: 90%;
+  margin-left: 50px;
+}
+
+.parrafo-evento {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -238,6 +419,16 @@ h2 {
   position: fixed;
   right: 25px;
   bottom: 35px;
+}
+
+h6 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
